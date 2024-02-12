@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  app:
+    image: siwarak/strapi
+    container_name: 67-ced-strapi.
+    environment:
+      - DATABASE_CLIENT=postgres
+      - DATABASE_HOST=192.168.211.55
+      - DATABASE_PORT=54321
+      - DATABASE_NAME=siwarak
+      - DATABASE_USERNAME=siwarak
+      - DATABASE_PASSWORD=Bb123456
+
